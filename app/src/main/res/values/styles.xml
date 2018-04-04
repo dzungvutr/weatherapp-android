@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+    </style>
+
+    <!--Progress Style-->
+    <style name="circular_progress_video" parent="Material.Drawable.CircularProgress">
+        <item name="cpd_strokeColor">#29486b</item>
+        <item name="cpd_strokeSize">8dp</item>
+        <item name="cpd_strokeSecondaryColor">#2f5691</item>
+        <item name="cpd_padding">2dp</item>
+    </style>
+</resources>
